@@ -1,0 +1,56 @@
+body{
+    background-color: lightpink;
+}
+
+.contianer {
+    width: 80%;
+    margin-inline:auto;
+    background-color: cyan;
+   
+    
+}
+
+.cat-outside{
+    width: 60px;
+    position:sticky;
+    top: 20px;
+    left: 10px;
+}
+
+/* absolute  remove space and relative put place  as it is  */
+.text-box{
+    width: 90%;
+    background-color: greenyellow;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+.kitty{
+    width: 200px;
+    float: right;
+}
+
+.kitty1{
+    width: 200px;
+    float: left;
+}
+.first-para{
+    clear: right;
+}
+
+.bottom-para{
+    clear: left;
+}
+
+/* spacer is used scroll web page */
+
+.spacer{
+    height: 100vh;
+}
+/* .text-wrapper{
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgb(148, 222, 135);
+    overflow:auto;
+} */
